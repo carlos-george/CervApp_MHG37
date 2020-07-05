@@ -15,3 +15,5 @@ Subir o servidor json-server, executar o comando abaixo.
 ## Tecnologias Utilizadas
 
 - [json server](http://zetcode.com/javascript/jsonserver/)
+- [React](https://pt-br.reactjs.org/)
+- TypeScript
