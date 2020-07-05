@@ -1,0 +1,13 @@
+.notas {
+	display: inline-block;
+}
+
+.notas img {
+	width: 0.9em;
+	height: 0.9em;
+	margin-right: 0.3em;
+}
+
+.notas img:last-child {
+	margin-right: 0em;
+}

@@ -1,0 +1,130 @@
+{
+	"cervejas": [
+		{ "id": 1,  "estilo": "Belgian Dubbel", "familia": "Ale", "cor": "Marrom", "title": "Leffe", "garrafaImgUrl": "https://i.imgur.com/ku08o9X.png", "imageUrl": "https://imgur.com/2t2lf5X.png", "desc": "Encorpada e produzida com maltes nobres, a Cerveja Leffe Brown tem um aroma torrado com toque de caramelo. De sabor leve e notas de chocolate e toffe, esta é uma saborosa Belgian Dubbel de coloração âmbar escura. Uma cerveja bem carbonatada com evidente amargor em seu retrogosto. Experimente harmonizar o sabor da Leffe Brown com m porco assado ou um frango ao vinho. Criada em 1240 por clérigos da abadia de Leffe, a marca teve sua produção interrompida após a Revolução Francesa, até que, na década de 1950, Abbot Nys e Albert Lootvoet reviveram a tradição" },
+		{ "id": 2,  "estilo": "", "familia": "", "cor": "", "title": "Wäls", "garrafaImgUrl": "",  "imageUrl": "https://imgur.com/88TwobO.png" , "desc": ""},
+		{ "id": 3,  "estilo": "", "familia": "", "cor": "", "title": "Hoegaarden", "garrafaImgUrl": "", "imageUrl": "https://imgur.com/gQUIMVM.png" , "desc": ""},
+		{ "id": 4,  "estilo": "", "familia": "", "cor": "", "title": "Corona", "garrafaImgUrl": "", "imageUrl": "https://imgur.com/dGrQaJe.png", "desc": "" },
+		{ "id": 5,  "estilo": "", "familia": "", "cor": "", "title": "Colorado", "garrafaImgUrl": "", "imageUrl": "https://imgur.com/MkbjUmP.png", "desc": "" },
+		{ "id": 6,  "estilo": "", "familia": "", "cor": "", "title": "Skol", "garrafaImgUrl": "", "imageUrl": "https://imgur.com/nhYKKRU.png" , "desc": ""},
+		{ "id": 7,  "estilo": "", "familia": "", "cor": "", "title": "Antarctica", "garrafaImgUrl": "", "imageUrl": "https://imgur.com/iMuWrxH.png", "desc": "" },
+		{ "id": 8,  "estilo": "", "familia": "", "cor": "", "title": "Brahma", "garrafaImgUrl": "", "imageUrl": "https://imgur.com/NNjCbSP.png", "desc": "" },
+		{ "id": 9,  "estilo": "", "familia": "", "cor": "", "title": "Budweiser", "garrafaImgUrl": "", "imageUrl": "https://imgur.com/xUHnyyu.png", "desc": "" },
+		{ "id": 10, "estilo": "", "familia": "", "cor": "", "title": "Stella Artois", "garrafaImgUrl": "", "imageUrl": "https://imgur.com/svCDJDg.png" , "desc": ""},
+		{ "id": 11, "estilo": "", "familia": "", "cor": "", "title": "Serra Malte", "garrafaImgUrl": "", "imageUrl": "https://imgur.com/TvOLtk1.png", "desc": "" },
+		{ "id": 12, "estilo": "", "familia": "", "cor": "", "title": "Quilmes", "garrafaImgUrl": "", "imageUrl": "https://imgur.com/hdobPoS.png", "desc": "" },
+		{ "id": 13, "estilo": "", "familia": "", "cor": "", "title": "Patagonia", "garrafaImgUrl": "", "imageUrl": "https://imgur.com/e4PlnK7.png", "desc": "" },
+		{ "id": 14, "estilo": "", "familia": "", "cor": "", "title": "Nortena", "garrafaImgUrl": "", "imageUrl": "https://imgur.com/TWkkOoU.png", "desc": "" },
+		{ "id": 15, "estilo": "", "familia": "", "cor": "", "title": "Löwenbräu", "garrafaImgUrl": "", "imageUrl": "https://imgur.com/Hd1uSQy.png", "desc": "" },
+		{ "id": 16, "estilo": "", "familia": "", "cor": "", "title": "Franziskaner", "garrafaImgUrl": "", "imageUrl": "https://imgur.com/3wqgkoT.png", "desc": "" }
+	],
+
+	"disponibilidades": [
+		{ "id": 1, "nome": "Segurança contra o COVID-19", "imageURL": "https://imgur.com/iaTXemX.png" },
+		{ "id": 2, "nome": "Brinquedoteca", "imageURL": "https://imgur.com/0YUzSOT.png" },
+		{ "id": 3, "nome": "Area de Jogos", "imageURL": "https://imgur.com/8nCFLw7.png" },
+		{ "id": 4, "nome": "Banheiros Higienicos", "imageURL": "https://imgur.com/Ogral1Y.png" },
+		{ "id": 5, "nome": "Shows de Rock", "imageURL": "https://imgur.com/GpIE2nB.png" },
+		{ "id": 6, "nome": "Kareoke", "imageURL": "https://imgur.com/18zAFwz.png" },
+		{ "id": 7, "nome": "Shows de Sertanejo", "imageURL": "https://imgur.com/GpIE2nB.png" }
+	],
+
+	"bares": [
+    { 
+      "id": 1, 
+      "nome": "Raru`s Burguer", 
+      "imageUrl": "https://imgur.com/f1afkzh.png", 
+      "nota": 2,
+      "contato" : "19 97164-4887",
+      "menu": "https://rarusburgers.com.br/cardapio",
+      "distancia": "300m",
+      "descricao": "Um Burger Bar como nenhum outro. Ambiente diferenciado, hambúrgueres artesanais feitos na hora, entradas matadoras, drinks, chopp e cervejas especiais",
+      "endereco": "Estrada do Galeão, 1200 - Ilha do Governador, Rio de Janeiro - RJ",
+      "disponibilidades": [
+        { "id": 1, "nome": "Segurança contra o COVID-19", "imageURL": "https://imgur.com/iaTXemX.png" },
+        { "id": 2, "nome": "Brinquedoteca", "imageURL": "https://imgur.com/0YUzSOT.png" },
+        { "id": 3, "nome": "Area de Jogos", "imageURL": "https://imgur.com/8nCFLw7.png" },
+        { "id": 4, "nome": "Banheiros Higienicos", "imageURL": "https://imgur.com/Ogral1Y.png" }
+      ],
+      "cervejas": [
+        { "id": 1,  "title": "Leffe", "imageUrl": "https://imgur.com/2t2lf5X.png" },
+        { "id": 2,  "title": "Wäls",  "imageUrl": "https://imgur.com/88TwobO.png" },
+        { "id": 3,  "title": "Hoegaarden", "imageUrl": "https://imgur.com/gQUIMVM.png" },
+        { "id": 4,  "title": "Corona", "imageUrl": "https://imgur.com/dGrQaJe.png" },
+        { "id": 5,  "title": "Colorado", "imageUrl": "https://imgur.com/MkbjUmP.png" },
+        { "id": 6,  "title": "Skol", "imageUrl": "https://imgur.com/nhYKKRU.png" },
+        { "id": 7,  "title": "Antarctica", "imageUrl": "https://imgur.com/iMuWrxH.png" },
+        { "id": 8,  "title": "Brahma", "imageUrl": "https://imgur.com/NNjCbSP.png" },
+        { "id": 9,  "title": "Budweiser", "imageUrl": "https://imgur.com/xUHnyyu.png" },
+        { "id": 10, "title": "Stella Artois", "imageUrl": "https://imgur.com/svCDJDg.png" },
+        { "id": 11, "title": "Serra Malte", "imageUrl": "https://imgur.com/TvOLtk1.png" }
+      ]
+    },
+    { 
+      "id": 2, 
+      "nome": "Rock Bar", 
+      "imageUrl": "https://imgur.com/HeegzZw.png", 
+      "nota": 3, 
+      "contato" : "19 97164-4887",
+      "menu": "https://rarusburgers.com.br/cardapio",
+      "distancia": "200m", 
+      "descricao": "",
+      "endereco": "",
+      "disponibilidades": [
+        { "id": 1, "nome": "Segurança contra o COVID-19", "imageURL": "https://imgur.com/iaTXemX.png"  },
+        { "id": 4, "nome": "Banheiros Higienicos", "imageURL": "https://imgur.com/Ogral1Y.png" },
+        { "id": 5, "nome": "Musica ao Vivo", "imageURL": "https://imgur.com/GpIE2nB.png" },
+        { "id": 6, "nome": "Kareoke", "imageURL": "https://imgur.com/18zAFwz.png" }
+      ],
+      "cervejas": [
+        { "id": 11, "title": "Serra Malte", "imageUrl": "https://imgur.com/TvOLtk1.png" },
+        { "id": 12, "title": "Quilmes", "imageUrl": "https://imgur.com/hdobPoS.png" },
+        { "id": 13, "title": "Patagonia", "imageUrl": "https://imgur.com/e4PlnK7.png" },
+        { "id": 14, "title": "Nortena", "imageUrl": "https://imgur.com/TWkkOoU.png" },
+        { "id": 15, "title": "Löwenbräu", "imageUrl": "https://imgur.com/Hd1uSQy.png" }
+      ] 
+    },
+    { 
+      "id": 3, 
+      "nome": "Puzzles",  
+      "imageUrl": "https://imgur.com/V9AqQVT.png", 
+      "nota": 2, 
+      "contato" : "19 97164-4887",
+      "menu": "https://rarusburgers.com.br/cardapio",
+      "descricao": "",
+      "endereco": "",
+      "distancia": "50m", 
+      "disponibilidades": [
+        { "id": 1, "nome": "Segurança contra o COVID-19", "imageURL": "https://imgur.com/iaTXemX.png" },
+        { "id": 3, "nome": "Area de Jogos", "imageURL": "https://imgur.com/8nCFLw7.png" },
+        { "id": 4, "nome": "Banheiros Higienicos", "imageURL": "https://imgur.com/Ogral1Y.png" },
+        { "id": 5, "nome": "Musica ao Vivo", "imageURL": "https://imgur.com/GpIE2nB.png" }
+      ], 
+      "cervejas": [
+        { "id": 1,  "title": "Leffe", "imageUrl": "https://imgur.com/2t2lf5X.png" },
+        { "id": 2,  "title": "Wäls",  "imageUrl": "https://imgur.com/88TwobO.png" },
+        { "id": 3,  "title": "Hoegaarden", "imageUrl": "https://imgur.com/gQUIMVM.png" },
+        { "id": 4,  "title": "Corona", "imageUrl": "https://imgur.com/dGrQaJe.png" },
+        { "id": 5,  "title": "Colorado", "imageUrl": "https://imgur.com/MkbjUmP.png" }
+      ]
+    }
+  ],
+
+  "eventos": [
+    { 
+      "id": 1, 
+      "nome": "Cover Bon Jovi",  
+      "imageUrl": "", 
+      "bar": { "id": 2, "nome": "Rock Bar", "distancia": "200m" },
+      "data": "13 / 07",
+      "hora": "22:30"
+    },
+    { 
+      "id": 2, 
+      "nome": "Jogo do Flamengo",  
+      "imageUrl": "", 
+      "bar": { "id": 3, "nome": "Puzzles", "distancia": "50m" },
+      "data": "15 / 07",
+      "hora": "16:00"
+    }
+  ]
+}

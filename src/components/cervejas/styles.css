@@ -1,0 +1,43 @@
+.items-grid {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    overflow-x: auto;
+}
+
+.items-grid::-webkit-scrollbar {    
+    display: none;
+}
+
+.items-grid img {
+    width: 55px;
+    height: 55px;
+}
+
+.items-grid li {
+    background: transparent;
+    border: 0;
+    height: 100px;
+    padding: 22px 14px 6px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+    text-align: center;
+  
+    cursor: pointer;
+  }
+  
+  .items-grid li span {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: #000;
+    transition: all 0.2s;
+  }
+  
+  .items-grid li span.selected {
+    color: #86490B;
+  }

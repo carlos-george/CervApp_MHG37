@@ -1,0 +1,267 @@
+#phone a {
+    
+    width: 40px;
+    height: 40px;
+    padding-top: 17px; 
+    padding-left: 17px;
+    position: absolute;
+    top: 175px;
+    right: 50px;
+
+    border: 0;
+    border-radius: 100px;
+    background: #EAC176;
+    z-index: 10000;
+
+}
+#phone img {
+    color: #fff;
+    width: 25px;
+    height: 25px;
+}
+
+#detail-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#detail-container header {
+    width: 100%;
+}
+
+#detail-container main {
+    display: flex;
+    flex-direction: column;
+}
+
+#detail-container header img {
+    width: 100%;
+    height: 200px;
+}
+
+#detail-container main .bar-nome {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    
+    display: flex;
+    justify-items: center;
+    align-content: space-between;
+}
+
+#detail-container main .bar-nome .title {
+    width: 100%;
+}
+
+#detail-container main .bar-nome .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#detail-container main .bar-nome a {
+    width: 90px;
+    height: 30px;
+    margin-top: 10px;
+    text-decoration: none;
+    background: #EAC176;
+    color: #955F2A;
+    border: 0;
+    position: absolute;
+    right: 10px;
+
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+#detail-container main .bar-nome .title h1 {
+    margin-bottom: 0px;
+}    
+
+#detail-container main .bar-nome .nome-detail {
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+}    
+
+#detail-container main .bar-nome .nome-detail h4 {
+
+    margin-top: 5px;
+    margin-right: 10px;
+    padding: 0;
+    color: #222;
+    opacity: 0.5;
+}    
+
+#detail-container main .bar-nome .nome-detail img {
+    margin-top: 3px;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+}    
+
+#detail-container main hr {
+    width: 95%;
+    height: 2px;
+    background: #DDDDDD;
+    border-radius: 30px;
+} 
+
+#detail-container main .endereco {
+    padding: 10px
+}    
+
+#detail-container main .endereco h3 {
+    margin-bottom: 10px;
+    color: #222222;
+    opacity: 0.4;
+}   
+
+#detail-container main .endereco .endereco-detalhe {
+    width: 100%;
+}    
+
+#detail-container main .endereco .endereco-detalhe p {
+    margin: 5px auto;
+    color: #222222;
+    font-weight: bold;
+    font-size: 20px;
+}    
+
+#detail-container main .endereco .endereco-detalhe p.delivery {
+    margin: 10px auto;
+    color: #955F2A;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}    
+
+#detail-container main .reserva {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#detail-container main .reserva a {
+    width: 90%;
+    height: 40px;
+    border-radius: 30px;
+    background: #EAC176;
+    color: #955F2A;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+
+}
+
+#detail-container main .descricao {
+    margin: 10px;
+    width: 100%;
+}
+
+#detail-container main .descricao p {
+   font-size: 20px;
+
+}
+
+#detail-container main .atrativos {
+    width: 100%;
+    margin-left: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#detail-container main .atrativos .atrativos-items {
+    padding-bottom: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#detail-container main .atrativos .atrativos-items .item-img img {
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+}
+
+#detail-container main .atrativos .atrativos-items .item-nome {
+    width: 100%;
+    padding-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #222;
+    opacity: 0.4;
+}
+
+#detail-container main .cervejas .items-grid {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    overflow-x: auto;
+}
+
+#detail-container main .cervejas .items-grid::-webkit-scrollbar {    
+    display: none;
+}
+
+#detail-container main .cervejas .items-grid img {
+    width: 55px;
+    height: 55px;
+}
+
+#detail-container main .cervejas .items-grid li {
+    background: transparent;
+    border: 0;
+    height: 100px;
+    padding: 22px 14px 6px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+    text-align: center;
+  
+    cursor: pointer;
+  }
+  
+  #detail-container main .cervejas .items-grid li span {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: #000;
+    transition: all 0.2s;
+  }
+
+  #detail-container main .cervejas .preferidas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #detail-container main .cervejas .preferidas p.delivery {
+    margin: 10px;
+    color: #955F2A;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
