@@ -6,6 +6,8 @@ import api from '../../services/api';
 import './styles.css';
 import star from '../../resources/star.png';
 import phone from '../../resources/phone.png';
+import uber from '../../resources/uber.png';
+import taxi from '../../resources/99-app-logo.png';
 
 interface Disponibilidade {
     id: number; 
@@ -118,6 +120,13 @@ const Detail = () => {
                             <p className="delivery">
                                 Possui serviço de delivery
                             </p>
+                            <div className="uber">
+                                <p>Ir para o bar:</p>
+                                <a href="https://m.uber.com/ul/?action=setPickup&client_id=XqLmJRCR9vgEA8WhWLHlwLQ4e0Ira3TD&pickup=my_location&dropoff[formatted_address]=Raros%20Burgues%20Barro%20Vermelho%20-%20Rua%20Doutor%20Get%C3%BAlio%20Vargas%20-%20Santa%20Catarina%2C%20S%C3%A3o%20Gon%C3%A7alo%20-%20State%20of%20Rio%20de%20Janeiro%2C%20Brazil&dropoff[latitude]=-22.838444&dropoff[longitude]=-43.065945">
+                                    <img src={uber} alt="uber"/>
+                                </a>
+                                <img src={taxi} alt="taxi"/>
+                            </div>
                         </div>
                     </div>
                     <div className="cervejas">
