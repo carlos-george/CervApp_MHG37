@@ -4,7 +4,7 @@
 
 ## O Projeto
 
-Tendo como base o design da aplicacao ( que pode ser visto acessando esse [link](#) ) criado no Figma, desenvolvemos a demo da nosso solucao usando React.
+Tendo como base o design da aplicacao ( que pode ser visto acessando esse [link](https://www.figma.com/file/j8mz01XLWXFcTSQmBXYSda/MegaHack-Shawee?node-id=0%3A1) ) criado no Figma, desenvolvemos a demo da nosso solucao usando React.
 
 ## JSON-SERVER
 
